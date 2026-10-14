@@ -3,17 +3,19 @@ import { colors } from "@/styles/colors";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 type CloseButtonProps = {
+    title: string
     onPress: () => void;
 }
 
-export const CloseButton = ({ onPress }: CloseButtonProps) => {
+export const CloseButton = ({ onPress, title, ...rest }: CloseButtonProps) => {
     return (
         <TouchableOpacity
             style={styles.closeButton}
-            onPress={onPress}
+            activeOpacity={0.7}
+            onPress={onPress} {...rest}
             accessibilityLabel="Fechar visualização"
         >
-            <Text style={styles.title}>FECHAR</Text>
+            <Text style={styles.title}>{title}</Text>
         </TouchableOpacity>
     )
 };
@@ -21,11 +23,11 @@ export const CloseButton = ({ onPress }: CloseButtonProps) => {
 const styles = StyleSheet.create({
   closeButton: {
     position: "absolute",
-    top: 20,
+    top: 35,
     right: 20,
     padding: 5,
     borderRadius: 10,
-    backgroundColor: colors.black[100],
+    zIndex: 40,
   },
   title: {
     color: colors.white[100],

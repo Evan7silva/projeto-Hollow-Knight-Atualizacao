@@ -18,7 +18,7 @@ export default function Index() {
                 <Button title="AMULETOS" onPress={() => router.navigate("/amuletos")} />
                 <Button title="BUILDS" onPress={() => router.navigate("/builds")} />
                 <Button title="HABILIDADES" onPress={() => router.navigate("/habilidades")} />
-                <Button title="MAP" onPress={() => router.navigate("/map")} />
+                <Button title="MAPA" onPress={() => router.navigate("/map")} />
                 <Image
                     source={require('@/assets/images/imgMenuBottom.png')}
                     style={styles.imgMenuBottom}
