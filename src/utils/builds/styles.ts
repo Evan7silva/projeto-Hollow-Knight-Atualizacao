@@ -2,8 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   imageBuild: {
-    width: 324,
-    height: 124
+    width: 320,
+    height: 185,
   },
   imageAmuleto: {
     width: 214,

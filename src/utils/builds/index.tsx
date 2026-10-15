@@ -17,7 +17,7 @@ export const builds : Build [] = [
     {   
         id: "1",
         nome: "Build I",
-        imageBuild: require("@/assets/images/build/buld 1.png"),
+        imageBuild: require("@/assets/images/build/buld 1.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/buld I.png"),
         estiloImageAmuleto: styles.imageAmuleto,
@@ -28,7 +28,7 @@ export const builds : Build [] = [
      {   
         id: "2",
         nome: "Build II",
-        imageBuild: require("@/assets/images/build/build 2.png"),
+        imageBuild: require("@/assets/images/build/build 2.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build II.png"),
         estiloImageAmuleto: styles.imageAmuletoCinco,
@@ -39,7 +39,7 @@ export const builds : Build [] = [
      {   
         id: "3",
         nome: "Build III",
-        imageBuild: require("@/assets/images/build/build 3.png"),
+        imageBuild: require("@/assets/images/build/build 3.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build III.png"),
         estiloImageAmuleto: styles.imageAmuletoCinco,
@@ -50,7 +50,7 @@ export const builds : Build [] = [
     {   
         id: "4",
         nome: "Build IV",
-        imageBuild: require("@/assets/images/build/build 4.png"),
+        imageBuild: require("@/assets/images/build/build 4.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build IV.png"),
         estiloImageAmuleto: styles.imageAmuleto,
@@ -61,7 +61,7 @@ export const builds : Build [] = [
      {   
         id: "5",
         nome: "Build V",
-        imageBuild: require("@/assets/images/build/build 5.png"),
+        imageBuild: require("@/assets/images/build/build 5.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build V.png"),
         estiloImageAmuleto: styles.imageAmuletoCinco,
@@ -72,7 +72,7 @@ export const builds : Build [] = [
      {   
         id: "6",
         nome: "Build VI",
-        imageBuild: require("@/assets/images/build/build 6.png"),
+        imageBuild: require("@/assets/images/build/build 6.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build VI.png"),
         estiloImageAmuleto: styles.imageAmuletoSeis,
@@ -83,7 +83,7 @@ export const builds : Build [] = [
     {   
         id: "7",
         nome: "Build VII",
-        imageBuild: require("@/assets/images/build/build 7.png"),
+        imageBuild: require("@/assets/images/build/build 7.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build VII.png"),
         estiloImageAmuleto: styles.imageAmuletoCinco,
@@ -94,7 +94,7 @@ export const builds : Build [] = [
      {   
         id: "8",
         nome: "Build VIII",
-        imageBuild: require("@/assets/images/build/build 8.png"),
+        imageBuild: require("@/assets/images/build/build 8.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build VIII.png"),
         estiloImageAmuleto: styles.imageAmuleto,
@@ -105,7 +105,7 @@ export const builds : Build [] = [
      {   
         id: "9",
         nome: "Build IX",
-        imageBuild: require("@/assets/images/build/build 9.png"),
+        imageBuild: require("@/assets/images/build/build 9.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build IX.png"),
         estiloImageAmuleto: styles.imageAmuletoSeis,
@@ -116,7 +116,7 @@ export const builds : Build [] = [
     {   
         id: "10",
         nome: "Build IX",
-        imageBuild: require("@/assets/images/build/build 10.png"),
+        imageBuild: require("@/assets/images/build/build 10.gif"),
         estiloImageBuild: styles.imageBuild,
         imageBuildAmuleto: require("@/assets/images/build/amuletoBuild/build X.png"),
         estiloImageAmuleto: styles.imageAmuletoSeis,

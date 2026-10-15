@@ -1,4 +1,5 @@
 import { colors } from "@/styles/colors";
+import { BlurView } from 'expo-blur';
 import { Modal, StyleSheet, View } from "react-native";
 
 type CustomModalProps = {
@@ -7,14 +8,20 @@ type CustomModalProps = {
 }
 
 export const CustomModal = ({ visible, children }: CustomModalProps) => {
-    
+
     return (
-        <Modal transparent visible={visible} animationType="fade">
-            <View style={styles.modal}>
-                <View style={styles.modalContent}>
-                    {children}
+        <Modal transparent={true} visible={visible} animationType="fade">
+            <BlurView
+                intensity={100}
+                tint="dark"
+                style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+            >
+                <View style={styles.modal}>
+                    <View style={styles.modalContent}>
+                        {children}
+                    </View>
                 </View>
-            </View>
+            </BlurView>
         </Modal>
     )
 }
